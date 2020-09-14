@@ -1,0 +1,249 @@
+@import 'font.css';
+
+.cpt_meta_box_wraper {
+    direction: ltr;
+}
+
+.cpt_meta_box_wraper label{
+    font-family: 'Dosis', sans-serif;
+}
+
+.cpt_meta_box_wraper input[type='text']{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#cptmm_search_address{
+    width: 74%;
+}
+
+#cptmm_search_address_btn{
+    font-family: 'Dosis', sans-serif;
+    width: 25%;
+    margin-left: 1%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#cptmm_search_address_err_msg{
+    color: red;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.cpt_meta_box_wraper textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.label_title{
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+hr{
+    margin: 20px 0 ;
+}
+
+#cptmm_icon_img_prv{
+    display: block;
+    margin: 15px 0 5px 0;
+    border: 1px solid #80808059;
+}
+
+#cptmm_map {
+    height: 350px;
+}
+
+#ctpmm_remove_image{
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+/* admin menu*/
+
+.ctpmm_wrap{
+    text-align: center;
+    direction: ltr;
+}
+
+.ctpmm_wrap .updated{
+    text-align: right;
+}
+
+.cptmm_box{
+    text-align: left;
+    padding: 10px;
+    height: 90px;
+    width: 92%;
+    margin: 30px auto;
+    box-shadow: 4px 4px 23px -12px;
+    position: relative;
+    clear: both;
+}
+
+.cptmm_box > .cptmm_header > h1{
+    color: #1a246b;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.cptmm_box > .cptmm_header > span{
+    color: #1a246b;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.cptmm_box >  .ctpmm_logo_img{
+    width: 60px;
+    padding: 0px 20px;
+    float: left;
+    height: 100%;
+}
+
+.cptmm_submit_btn{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.cptmm_box_content{
+    margin: 20px 1%;
+    text-align: left;
+    box-shadow: 4px 4px 23px -12px;
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cptmm_full_width{
+    width: 95%;
+}
+
+.cptmm_box_content_header{
+    padding: 15px;
+    background: black;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+.cptmm_box_content_header> img{
+width: 30px;
+padding: 5px 10px 0 0;
+float: left;
+}
+
+.cptmm_box_content_header> h2{
+    font-family: 'Dosis', sans-serif;
+    margin: 0 0 5px 0;
+    color: white;
+}
+
+.cptmm_box_content_header> span{
+}
+
+.cptmm_box_content_section{
+    font-family: 'Dosis', sans-serif;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.cptmm_box_content_section input[type='text']{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cptmm_default_icon{
+    width: 50px;
+    padding: 5px 2px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.cptmm_default_icon_select{
+    border: 1px solid #24247552;
+}
+
+.cptmm_post_types_title{
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+/* checkbox */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    margin: 5px 0;
+    height: 25px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+    margin: 10p;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
